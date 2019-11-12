@@ -1,21 +1,8 @@
 /**
- * myapi.js
- *
- * @version 1.1 - April 2015
- *
- *
- * DESCRIPTION:
- * an application to demonstrate running a node
- * API Appserver on a Raspberry Pi to access GPIO I/O
- * Uses the Express and wiringPi node packages.
- *
- *
- * @throws none
- * @see nodejs.org
- * @see express.org
- *
- * @author Ceeb
- * (C) 2015 PINK PELICAN NZ LTD
+ * This code is based off the following tutorial:
+ http://www.robert-drummond.com/2013/05/08/how-to-build-a-restful-web-api-on-a-raspberry-pi-in-javascript-2/
+ 
+ MODIFIED TO FIT LAB SPECIFICATIONS BY @aa4338
  */
 
 var http      = require('http');
